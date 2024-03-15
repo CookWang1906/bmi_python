@@ -26,8 +26,7 @@ def bmi():
     
     if bmi < 18.5:
         print(f"\nYour BMI result: {bmi}\nBe careful! You're in the underweight range.")
-        print("Tips to get healthier: Eat more often (5-6 meals/day).")
-        print("You can watch the routines folder to know better and how to improve your weight.")
+        print("You can watch the routines folder to know better on how to improve your weight.")
         time.sleep(5)
         return pick()
     elif 18.5 <= bmi <= 24.9:
@@ -38,14 +37,12 @@ def bmi():
         return pick()
     elif 25 <= bmi <= 29.9:
         print(f"\nYour BMI result: {bmi}\nCautions! You're in the overweight range.")
-        print("Watch out my friend. You're in the overweight range. You can get healthier by doing exercise simple like walking or running, but you must have sweat doing it!")
-        print("To know better you can read the routines folder for your weight.")
+        print("To know better about losing weight, you can read the routines folder for your weight.")
         time.sleep(5)
         return pick()
     elif bmi >= 30:
         print(f"\nYour BMI result: {bmi}\nWarning! You're in the obese range.")
-        print("My friend. You are eating too much and not exercising, you know its very bad for your health right?")
-        print("I hope you can lose weight and became a better person. You can learn by watching the routines folder. I hope you the best, man.")
+        print("You can know better about losing weight by watching the routines folder. I hope you the best, man.")
         time.sleep(5)
         return pick()
 pick()
