@@ -1,4 +1,3 @@
-#These programs will never be out of time.
 import time
 
 def pick():
